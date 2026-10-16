@@ -1,14 +1,13 @@
 {
   "name": "guu-schedule-bot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "scripts": { "start": "node server.js" },
   "dependencies": {
     "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "node-cron": "^3.0.3"
   },
   "engines": { "node": ">=18" }
 }
